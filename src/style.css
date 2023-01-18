@@ -81,7 +81,7 @@ footer ul {
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 .hero {
   color: var(--primary-color);
