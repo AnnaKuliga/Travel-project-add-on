@@ -44,20 +44,28 @@ footer {
     url("../images/footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgba(161, 161, 161, 0.74);
+  color: rgba(188, 186, 186, 0.74);
 }
 footer a {
-  color: rgba(161, 161, 161, 0.74);
+  color: rgba(188, 186, 186, 0.74);
   text-decoration: none;
 }
 footer a:hover {
   color: var(--primary-color);
 }
+footer .container {
+  padding-bottom: 20px;
+}
 footer h3 {
+  font-size: 20px;
+}
+footer i {
   font-size: 20px;
 }
 footer p {
   font-size: 16px;
+  padding: 10px;
+  text-align: justify;
 }
 footer li {
   font-size: 16px;
@@ -67,6 +75,13 @@ footer li {
 }
 footer ul {
   padding: 0;
+  text-align: justify;
+}
+.grid {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
 }
 .hero {
   color: var(--primary-color);
