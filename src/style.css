@@ -110,3 +110,12 @@ nav li {
     height: 100%;
   }
 }
+@media (max-width: 900px) {
+  .grid {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+    text-align: center;
+  }
+}
