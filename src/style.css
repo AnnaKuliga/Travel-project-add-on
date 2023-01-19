@@ -151,6 +151,11 @@ nav li {
     height: 100%;
   }
 }
+@media (max-width: 1200px) {
+  .content a {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .description h3 {
     font-size: 10px;
