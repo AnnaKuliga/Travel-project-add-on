@@ -188,7 +188,10 @@ footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+.gallery-button {
+  text-align: center;
+  margin-bottom: 80px;
+}
 .gallery img {
   margin-top: 10px;
 }
