@@ -336,6 +336,9 @@ nav li {
   .embed {
     aspect-ratio: 16 /9;
   }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
   .grid {
     padding: 15px;
     display: grid;
@@ -348,6 +351,9 @@ nav li {
   }
   .hero {
     padding: 0;
+  }
+  .images-gallery {
+    text-align: center;
   }
   .main-part {
     padding: 0;
